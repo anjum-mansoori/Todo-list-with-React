@@ -1,16 +1,114 @@
-# React + Vite
+#  iTask - Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo List application built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Add new todos
+- ✏️ Edit existing todos
+- ❌ Delete todos
+- ✅ Mark todos as completed
+- 🧹 Clear all todos
+- 📱 Fully responsive design
+- 💾 Local storage support
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#  Preview
 
-## Expanding the ESLint configuration
+![Todo App Screenshot](./preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# Technologies Used
+
+- React.js
+- Tailwind CSS
+- Vite
+
+---
+
+#  Project Structure
+
+```bash
+src/
+│
+├── components/
+│   └── Navbar.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+#  Installation & Setup
+
+##  Clone the repository
+
+```bash
+git clone https://github.com/anjum-mansoori/Todo-list-with-React
+```
+
+## 2️⃣ Navigate to project folder
+
+```bash
+cd Todo-app-with-React
+```
+
+## 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Start development server
+
+```bash
+npm run dev
+```
+
+Now open:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+#  Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+# Deployment
+
+This project is deployed on Vercel.
+
+## Deploy on Vercel
+
+1. Push project to GitHub
+2. Go to Vercel
+3. Import GitHub repository
+4. Click Deploy
+
+---
+
+# Responsive Design
+
+The app is fully responsive and works on:
+
+- Mobile devices
+- Tablets
+- Laptops
+- Desktop screens
+
+---
+
+# 🙌 Author
+
+Made with ❤️ by Anjum Mansoori
